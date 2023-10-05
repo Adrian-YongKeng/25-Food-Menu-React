@@ -1,0 +1,50 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2f2f2;
+  font-size: 28px;
+  margin-bottom: 50px;
+}
+header img {
+  max-width: 150px;
+  margin-left: 20px;
+}
+
+.container h2{
+  margin-left: 50px;
+  margin-top: 30px;
+}
+.category-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.card-img-top {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 18px;
+}
+
+.card-text p {
+  margin: 0;
+}
+
